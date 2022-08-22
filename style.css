@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    text-align: center;
+    padding: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+p {
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.banner-heading {
+    font-size: 50px;
+}
+
+button {
+    margin-top: 3%;
+    padding: 15px 15px;
+    justify-content: center;
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+section {
+    text-align: center;
+}
+
+.donate-today-heading,
+.updates-heading {
+    margin-top: 8%;
+    font-size: 40px;
+
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.amount {
+    margin: 0px 30px;
+    color: #707070;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#amount-second {
+    border: 2px solid #FF5959;
+    padding: 35px 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #FFEEEE;
+    color: #FF5959;
+}
+
+.amount-total-paragraph {
+    color: #707070;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+.donate-plans {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.plans {
+    margin: 5% 0 0 5%;
+    padding: 20px 25px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#plan-food {
+    background: rgba(79, 157, 166, 0.1);
+
+}
+
+#plan-family {
+    background: rgba(255, 89, 89, 0.1);
+
+}
+
+#plan-education {
+    background: rgba(255, 244, 214, 1);
+
+}
+
+.updates-area {
+    background: rgba(255, 244, 214, 1);
+
+    margin: 4% auto;
+    width: 50%;
+    padding: 5%;
+}
+
+.input-email {
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.subscribe-button {
+    padding: 15px 35px;
+    font-size: 20px;
+    margin-left: -5px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background: #FF5959;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
