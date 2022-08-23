@@ -1,11 +1,11 @@
-* {
+body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 .banner {
     text-align: center;
-    padding: 200px;
+    padding: 190px 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(images/donation5.jpg);
     background-repeat: no-repeat;
@@ -14,9 +14,12 @@
     background-blend-mode: darken;
 }
 
-p {
+.section-summary {
     margin-top: 2%;
     font-size: 20px;
+    width: 60%;
+    margin: auto;
+
 }
 
 .banner-heading {
@@ -40,10 +43,17 @@ section {
 
 .donate-today-heading,
 .updates-heading,
+.donate-plan-heading,
 .contact-us-heading {
     margin-top: 8%;
     font-size: 40px;
 
+}
+
+#donate-today-details,
+#donate-plan-details,
+#update-details {
+    color: #707070;
 }
 
 .donate-amount {
@@ -69,7 +79,7 @@ section {
     color: #FF5959;
 }
 
-.amount-total-paragraph {
+.amount-total-details {
     color: #707070;
     text-decoration: none;
     font-size: 20px;
@@ -90,12 +100,29 @@ hr {
     margin: auto;
 }
 
+
 .plans {
     margin: 5% 0 0 5%;
-    padding: 20px 25px;
-
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    text-align: justify;
+}
+
+.plans img {
+    margin-top: 20%;
+}
+
+.plans-info {
+    margin-top: 8%;
+
+}
+
+.plans-info p {
+    margin-top: 5%;
+    color: rgba(112, 112, 112, 1);
+    font-size: 15px;
+    margin-bottom: 15%;
 }
 
 #plan-food {
@@ -108,9 +135,13 @@ hr {
 
 }
 
-#plan-education {
+#plan-medicine {
     background: rgba(255, 244, 214, 1);
 
+}
+
+#plan-medicine img {
+    width: 20%;
 }
 
 .contact-us-area {
@@ -149,6 +180,13 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     justify-content: left;
+    color: #FF5959;
+}
+
+::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: #FF5959;
 }
 
 input[type=submit] {
@@ -192,4 +230,9 @@ footer {
     color: white;
     text-align: center;
     padding: 2%;
+    font-family: 'Lobster', cursive;
+}
+
+footer h1 {
+    color: #FF5959;
 }
