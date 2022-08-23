@@ -6,6 +6,14 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <!-- css link -->
       <link rel="stylesheet" href="style.css" />
+      <!-- font awesome link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+         rel="stylesheet"
+      />
+      <!-- title -->
       <title>Donate today</title>
    </head>
    <body>
@@ -31,12 +39,13 @@
             <h1 class="amount">1000tk</h1>
             <h1 class="amount">1500tk</h1>
          </div>
-         <p class="amount-total-paragraph">Other Amount (Taka)</p>
+         <input type="text" placeholder="Other Amount (Taka)" class="amount-total-paragraph"></input>
          <hr />
          <button>Donate Now</button>
       </section>
       <section>
          <h1 class="donate-today-heading">Our Donate Plan</h1>
+        
          <p>
             Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam
             falli deterruisset. No duo populo animal noluisse, enim
@@ -68,6 +77,29 @@
             </div>
          </div>
       </section>
+      <section class="contact-us-section" >
+      <h1 class="contact-us-heading">Contact us</h1>
+      <hr>
+      <div class="contact-us-area">
+        <div class="contact-us-half-width">
+        <img src="images/contac-us-pic/contact-us.jpg" alt="">
+        </div>
+      <div class="contact-us-half-width">
+        <form >
+            <input class="contact-us-firstname" type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input class="contact-us-firstname" type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <select id="country" name="country">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chottrogram">Chottrogram</option>
+            <option value="Khulna">Khulna</option>
+            </select>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+      </div>
+     </section>
       <section>
          <h1 class="updates-heading">Get My Updates</h1>
          <p>
